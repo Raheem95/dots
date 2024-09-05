@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- style -->
+    <!-- jquery -->
+    <!-- bootstrap -->
+    <link href="asset/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- fontawesome 6 -->
+    <link href="asset/fontawesome/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="asset/css/style.css" />
+  </head>
+  <body>
+    <div class="model-view">
+      <i class="fa-solid fa-square-xmark Viewbord"></i>
+      <label for="" class="header"> العنوان</label>
+      <div class="body">aaaaa</div>
+    </div>
+    <div class="contact-wrapper">
+      <div class="contact-icon ViewContact">
+        <i class="fa-solid fa-headset"></i>
+      </div>
+      <div class="contact-model">
+        <a href="https://wa.me/249110114123" target="_blank">
+          <i class="fa-brands fa-whatsapp" style="--color: #126c63"></i>
+        </a>
+        <a href="tel:+249110114123">
+          <i class="fa-solid fa-phone"></i>
+        </a>
+        <a href="https://maps.app.goo.gl/Hgc9auNKoiN4yWhw8" target="_blank">
+          <i class="fa-solid fa-location-dot" style="--color: #6d0606"></i>
+        </a>
+      </div>
+    </div>
+
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">Eldinder</label>
+      <ul>
+        <li><a class="active" href="">الرئيسية</a></li>
+        <li><a href="">عن الدندر</a></li>
+        <li><a href="">الخدمات</a></li>
+        <li><a href="">الاخبار</a></li>
+        <li><a href="">اتصل بنا</a></li>
+      </ul>
+    </nav>
+    <div class="slider">
+      <div class="list">
+        <div class="item">
+          <img src="asset/img/1.jpg" alt="" />
+          <div class="text-container">
+            <h1 class="shineAnimation">
+              الدندر لخدمات <span>السفر</span> و السياحة
+            </h1>
+            <p class="shineAnimation">
+              نحن هنا لنبي نداءك , استمتع بتجربة سفر سهلة و سلسة
+            </p>
+            <div class="button-container">
+              <button><span></span> ابدء رحلتك</button>
+              <button><span></span> طلب استفسار</button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="asset/img/2.jpg" alt="" />
+          <div class="text-container">
+            <h1>مهمتنا التي <span>نعدك </span> بها</h1>
+            <p>
+              بالمصداقيه والنزاهه والولاء لعملائنا نكسب ثقتك وتقديم خدمات مميزة
+              توفير اعلى قيمة وافضل سعر لجميع الرحلات تقبل رايك وتقيمك لنطور
+              خدماتنا
+            </p>
+            <div class="button-container">
+              <button><span></span> ابدء رحلتك</button>
+              <button><span></span> طلب استفسار</button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="asset/img/3.jpg" alt="" />
+          <div class="text-container">
+            <h1><span>اهدافنا</span> اللتى نسعى اليها</h1>
+            <p>
+              خدمة اكبر عدد من جميع الطوائف لمحبي السفر و السياحة الوصول معكم
+              علي ان نكون الوجهة الاولى لمن يريد الخدمات المميزة
+            </p>
+            <div class="button-container">
+              <button><span></span> ابدء رحلتك</button>
+              <button><span></span> طلب استفسار</button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="asset/img/4.jpg" alt="" />
+          <div class="text-container">
+            <h1><span>نعمل</span> دائما علي</h1>
+            <p>حصولك علي الراحه والمتعة</p>
+            <p>افضل قيمه مقابل السعر</p>
+            <div class="button-container">
+              <button><span></span> ابدء رحلتك</button>
+              <button><span></span> طلب استفسار</button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="asset/img/5.jpg" alt="" />
+          <div class="text-container">
+            <h1>الدندر لخدمات <span>السفر</span> و السياحة</h1>
+            <p>to much wordes here to explan the website details</p>
+            <div class="button-container">
+              <button><span></span> ابدء رحلتك</button>
+              <button><span></span> طلب استفسار</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="buttons">
+        <button id="prev"><</button>
+        <button id="next">></button>
+      </div>
+      <ul class="dots">
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <section>
+      <div class="out-fits row">
+        <div class="outfit">
+          <h2>شهر العسل</h2>
+          <p>
+            احجز باقتك و استمتع بشهر عسل فاية الروعة و وفر لنفسك جهد الحجز و
+            التنسيق للفنادق و الطيران فقط حدد وجهتك و استمتع بالرحلة
+          </p>
+        </div>
+        <div class="outfit">
+          <h2>التاشرات</h2>
+          <p>
+            قم باصدار تاشرة الدخول لعدد من الدول و تعرف على شروط و قوانين
+            التاشيرة من خلال موقعنا
+          </p>
+        </div>
+        <div class="outfit">
+          <h2>حجوزات الطيران</h2>
+          <p>
+            قم بتحديد وحهتك فقط و نحن ملتزمون بنوفير افضل عروض الطيران لجميع
+            انحاء العالم
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- start about-section -->
+    <section class="about-section">
+      <div class="content">
+        <div class="about-text">
+          <div class="">
+            <h2>الدندر <span>للخدمات</span></h2>
+            <p>
+              الدندر للاستخدام الخارجي للسفر والسياحة تأسست في عام 2001، وهي
+              معتمدة من السفارة السعودية ومكتب العمل السوداني. نحن نقدم خدمات
+              متكاملة تشمل استكمال إجراءات الزيارة العائلية، الزيارة الشخصية،
+              إجراءات العمل، والاستقدام الأسري في السعودية. كما نوفر تأشيرات
+              سياحية لدول مثل الإمارات، البحرين، عمان، يوغندا، أديس أبابا،
+              وتنزانيا. فريقنا المتخصص يسعى دائمًا لتقديم أفضل الخدمات لتسهيل
+              رحلاتكم وضمان تجربة سفر مريحة ومميزة.
+            </p>
+          </div>
+        </div>
+        <div class="about-img">
+          <img src="asset/img/5.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- end about-section -->
+    <!-- start service-section -->
+    <section class="service-section">
+      <h2 class="header">الخدمات</h2>
+      <div class="row">
+        <div class="card">
+          <span>
+            <button class="Viewbord"><a href="fff.html">Start</a></button></span
+          >
+          <img src="asset/img/1.jpg" alt="" />
+          <div class="service-content">
+            <label for="" class="header">فيزا الامارات</label>
+            <p>نبذة عن الخجمة لتقديمها للعميل الشفقان عشان يسافر و يعز روحو</p>
+          </div>
+        </div>
+        <div class="card">
+          <span>
+            <button><a href="fff.html">Start</a></button></span
+          >
+          <img src="asset/img/2.jpg" alt="" />
+          <div class="service-content">
+            <label for="" class="header">فيزا الامارات</label>
+            <p>نبذة عن الخجمة لتقديمها للعميل الشفقان عشان يسافر و يعز روحو</p>
+          </div>
+        </div>
+        <div class="card">
+          <span>
+            <button><a href="fff.html">Start</a></button></span
+          >
+          <img src="asset/img/3.jpg" alt="" />
+          <div class="service-content">
+            <label for="" class="header">فيزا الامارات</label>
+            <p>نبذة عن الخجمة لتقديمها للعميل الشفقان عشان يسافر و يعز روحو</p>
+          </div>
+        </div>
+        <div class="card">
+          <span>
+            <button><a href="fff.html">Start</a></button></span
+          >
+          <img src="asset/img/4.jpg" alt="" />
+          <div class="service-content">
+            <label for="" class="header">فيزا الامارات</label>
+            <p>نبذة عن الخجمة لتقديمها للعميل الشفقان عشان يسافر و يعز روحو</p>
+          </div>
+        </div>
+        <div class="card">
+          <span>
+            <button><a href="fff.html">Start</a></button></span
+          >
+          <img src="asset/img/5.jpg" alt="" />
+          <div class="service-content">
+            <label for="" class="header">فيزا الامارات</label>
+            <p>نبذة عن الخجمة لتقديمها للعميل الشفقان عشان يسافر و يعز روحو</p>
+          </div>
+        </div>
+        <div class="card">
+          <span>
+            <button><a href="fff.html">Start</a></button></span
+          >
+          <img src="asset/img/1.jpg" alt="" />
+          <div class="service-content">
+            <label for="" class="header">فيزا الامارات</label>
+            <p>نبذة عن الخجمة لتقديمها للعميل الشفقان عشان يسافر و يعز روحو</p>
+          </div>
+        </div>
+        <div class="card">
+          <span>
+            <button><a href="fff.html">Start</a></button></span
+          >
+          <img src="asset/img/1.jpg" alt="" />
+          <div class="service-content">
+            <label for="" class="header">فيزا الامارات</label>
+            <p>نبذة عن الخجمة لتقديمها للعميل الشفقان عشان يسافر و يعز روحو</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end service-section -->
+    <!-- start news-section -->
+    <section class="news-section">
+      <h2 class="header">اخر الاخبار</h2>
+      <div class="blog">
+        <div class="item">
+          <span>
+            <a href="#"><button>قراءة المزيد</button></a>
+          </span>
+          <img src="asset/img/1.jpg" alt="" />
+          <div class="news-details">
+            <h2>عنوان الخبر</h2>
+            <p>
+              njkcdwecjio cwjidsok cwsjioklm cwsjiokl cwsjiomkl wcsjokml
+              njkcdwecjio cwjidsok cwsjioklm cwsjiokl cwsjiomkl wcsjokml
+              njkcdwecjio cwjidsok cwsjioklm cwsjiokl cwsjiomkl wcsjokml
+              cwsjiklm cwsjpomkl cwsjikm
+              <a class="read-more" href="">قراءة المزيد</a>
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <span>
+            <a href="#"><button>قراءة المزيد</button></a>
+          </span>
+          <img src="asset/img/1.jpg" alt="" />
+          <div class="news-details">
+            <h2>عنوان الخبر</h2>
+            <p>
+              njkcdwecjio cwjidsok cwsjioklm cwsjiokl cwsjiomkl wcsjokml
+              njkcdwecjio cwjidsok cwsjioklm cwsjiokl cwsjiomkl wcsjokml
+              njkcdwecjio cwjidsok cwsjioklm cwsjiokl cwsjiomkl wcsjokml
+              cwsjiklm cwsjpomkl cwsjikm
+              <a class="read-more" href="">قراءة المزيد</a>
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <span>
+            <a href="#"><button>قراءة المزيد</button></a>
+          </span>
+          <img src="asset/img/1.jpg" alt="" />
+          <div class="news-details">
+            <h2>عنوان الخبر</h2>
+            <p>
+              njkcdwecjio cwjidsok cwsjioklm cwsjiokl cwsjiomkl wcsjokml
+              njkcdwecjio cwjidsok cwsjioklm cwsjiokl cwsjiomkl wcsjokml
+              njkcdwecjio cwjidsok cwsjioklm cwsjiokl cwsjiomkl wcsjokml
+              cwsjiklm cwsjpomkl cwsjikm
+              <a class="read-more" href="">قراءة المزيد</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="buttons">
+        <button id="prevNews"><</button>
+        <button id="nextNews">></button>
+      </div>
+    </section>
+    <!-- end news-section -->
+
+    <!-- counters -->
+    <section class="counters">
+      <div class="counters-container row">
+        <div class="counter">
+          <label for="">التذاكر</label>
+          <i class="fa-solid fa-plane-arrival"></i>
+          <p data-count="32000">0</p>
+        </div>
+        <div class="counter">
+          <label for="">التاشيرات</label>
+          <i class="fa-brands fa-cc-visa"></i>
+          <p data-count="19000">0</p>
+        </div>
+        <div class="counter">
+          <label for="">عروض شهر العسل</label>
+          <i class="fa-solid fa-city"></i>
+          <p data-count="3500">0</p>
+        </div>
+      </div>
+    </section>
+    <!-- end counters -->
+
+    <!-- start footer section -->
+    <div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3842.8804268889694!2d32.524230806996066!3d15.598036208112461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x168e8fd86522cb91%3A0x9f98f38e377780ca!2z2YXZg9iq2Kgg2KfZhNiv2YbYr9ixINmE2YTYp9iz2KrYrtiv2KfZhSDYp9mE2K7Yp9ix2KzZiiDZiCDYp9mE2LPZgdixINmIINin2YTYs9mK2KfYrdip!5e0!3m2!1sen!2ssa!4v1724694314120!5m2!1sen!2ssa"
+        width="100%"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer class="footer">
+      <div class="row">
+        <div class="col-md-5 text-right about-content">
+          <h2 class="header">عن الدندر</h2>
+          <img src="asset/img/1.jpg" alt="" />
+          <p class="about">
+            وكالتنا للسفر والسياحة تأسست في عام 2001، وهي معتمدة من السفارة
+            السعودية ومكتب العمل السوداني. نحن نقدم خدمات متكاملة تشمل استكمال
+            إجراءات الزيارة العائلية، الزيارة الشخصية، إجراءات العمل، والاستقدام
+            الأسري في السعودية. كما نوفر تأشيرات سياحية لدول مثل الإمارات،
+            البحرين، عمان، يوغندا، أديس أبابا، وتنزانيا. فريقنا المتخصص يسعى
+            دائمًا لتقديم أفضل الخدمات لتسهيل رحلاتكم وضمان تجربة سفر مريحة
+            ومميزة.
+          </p>
+        </div>
+        <div class="col-md-3 text-right footer-menu">
+          <h2 class="header">روابط سريعة</h2>
+          <ul>
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#">عن الدندر</a></li>
+            <li><a href="#">الخدمات</a></li>
+            <li><a href="#">الاخبار</a></li>
+            <li><a href="#">اتصل بنا</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 text-right">
+          <h2 class="header">اشترك معنا</h2>
+          <div class="subsctipe" style="display: flex">
+            <input type="text" placeholder="البريد الالكتروني" />
+            <button>اشترك</button>
+          </div>
+          <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-telegram"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+          <div class="contact">
+            <div class="item">
+              <label for="">info@eldinder-travel.com</label>
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="item">
+              <label for="">+249110114123</label>
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="item">
+              <label for=""
+                >السودان / الخرطوم / شارع السيد عبدالرحمن / جوار فندق
+                كابري</label
+              >
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end review section -->
+    <script src="asset/js/jquery-3.7.0.js"></script>
+    <script src="asset/js/ScrollReveal.js"></script>
+    <script src="asset/bootstrap/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+    <script>
+      ScrollReveal({
+        reset: true,
+        distance: "60px",
+        duration: 2500,
+        delay: 400,
+      });
+      ScrollReveal().reveal("nav ul li", {
+        delay: 50,
+        origin: "top",
+        interval: 100,
+      });
+      ScrollReveal().reveal(".counters .counters-container .counter", {
+        delay: 150,
+        origin: "bottom",
+
+        distance: "260px",
+        interval: 200,
+      });
+      ScrollReveal().reveal(".out-fits .outfit", {
+        delay: 50,
+        origin: "top",
+        distance: "260px",
+        interval: 100,
+      });
+      ScrollReveal().reveal("h2", { delay: 300, origin: "top" });
+      ScrollReveal().reveal(".about-text", { delay: 100, origin: "top" });
+      ScrollReveal().reveal(".about-text p", { delay: 500, origin: "right" });
+      ScrollReveal().reveal(".about-img img", {
+        delay: 200,
+        origin: "bottom",
+        distance: "100px",
+      });
+      ScrollReveal().reveal(".service-section .card", {
+        delay: 100,
+        origin: "top",
+        distance: "300px",
+        interval: 300,
+      });
+      ScrollReveal().reveal(".blog", { delay: 500, origin: "bottom" });
+      ScrollReveal().reveal(".footer .about-content", {
+        delay: 100,
+        origin: "right",
+        interval: 300,
+      });
+      ScrollReveal().reveal(".footer .footer-menu li", {
+        delay: 100,
+        origin: "bottom",
+        interval: 300,
+      });
+      ScrollReveal().reveal(".footer .subsctipe", {
+        delay: 100,
+        origin: "top",
+        interval: 300,
+      });
+      ScrollReveal().reveal(".social i", {
+        delay: 100,
+        origin: "top",
+        interval: 300,
+      });
+      ScrollReveal().reveal(".contact .item", {
+        delay: 100,
+        origin: "right",
+        interval: 300,
+      });
+    </script>
+  </body>
+</html>
